@@ -138,8 +138,8 @@ def training_loop_mereged_labels_of_deep_fashion(rank, opt):
     if local_rank==0:
         global run
         run = neptune.init(
-            project="gleb4848431/Human-parsing-u2net",
-            api_token="eyJhcGlfYWRkcmVzcyI6Imh0dHBzOi8vYXBwLm5lcHR1bmUuYWkiLCJhcGlfdXJsIjoiaHR0cHM6Ly9hcHAubmVwdHVuZS5haSIsImFwaV9rZXkiOiIzMWEzNTQ5ZC1kYTA1LTQ2MjEtOGJiNS05MzhiNDI0YWU1Y2IifQ==",
+            project="",
+            api_token="",
         )
 
     global decode_labels_dict
